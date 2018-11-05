@@ -4,10 +4,14 @@
   "main": "index.js",
   "author": "Joeseph Rodrigues <dowhilegeek@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "parcel --no-autoinstall index.html"
+  },
   "devDependencies": {
     "parcel-bundler": "^1.10.3"
   },
   "dependencies": {
-    "react": "^16.6.0"
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
   }
 }

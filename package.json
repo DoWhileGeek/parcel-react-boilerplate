@@ -5,7 +5,8 @@
   "author": "Joeseph Rodrigues <dowhilegeek@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "parcel --no-autoinstall index.html"
+    "start": "parcel serve --no-autoinstall --out-dir debug index.html",
+    "build": "parcel build index.html"
   },
   "devDependencies": {
     "parcel-bundler": "^1.10.3"
